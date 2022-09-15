@@ -8,7 +8,6 @@ from sqlalchemy.orm import relationship
 class User(BaseModel, Base):
     """
     Defines class User.
-
     Attributes:
         __tablename__ (str): The name of the MySQL table to store users.
         email: (sqlalchemy String): The user's email address.

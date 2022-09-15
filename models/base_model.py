@@ -11,7 +11,6 @@ Base = declarative_base()
 
 class BaseModel:
     """ Represents the BaseModel of the AirBnB project.
-
     Attributes:
         id (sqlalchemy String): The BaseModel id.
         created_at (sqlalchemy DateTime): The datetime at creation.
@@ -25,7 +24,6 @@ class BaseModel:
     def __init__(self, *args, **kwargs):
         """
         Initialize a new BaseModel.
-
         Args:
             *args (any): Won't be used.
             **kwargs (dict): Key/Value pairsof the attributes.
