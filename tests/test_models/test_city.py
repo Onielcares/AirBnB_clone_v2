@@ -21,6 +21,7 @@ class TestCity(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """City testing setup.
+
         Temporarily renames any existing file.json.
         Resets FileStorage objects dictionary.
         Creates FileStorage, DBStorage, City and State instances for testing.
@@ -43,6 +44,7 @@ class TestCity(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         """City testing teardown.
+
         Restore original file.json.
         Delete the FileStorage, DBStorage, City and State test instances.
         """

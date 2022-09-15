@@ -19,6 +19,7 @@ class TestFileStorage(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         """FileStorage testing setup.
+
         Temporarily renames any existing file.json.
         Resets FileStorage objects dictionary.
         Creates instances of all class types for testing.
@@ -54,6 +55,7 @@ class TestFileStorage(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         """FileStorage testing teardown.
+
         Restore original file.json.
         Delete all test class instances.
         """

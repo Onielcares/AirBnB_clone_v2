@@ -34,6 +34,7 @@ def parse(arg):
 class HBNBCommand(cmd.Cmd):
     """
     Implements the class HBNBCommand.
+
     Attributes:
         prompt (str): The command prompt.
     """

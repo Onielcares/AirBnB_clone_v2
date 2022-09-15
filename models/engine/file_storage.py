@@ -14,6 +14,7 @@ class FileStorage:
     """
     Serializes instances to a JSON file and deserializes
     JSON file to instances.
+
     Attributes:
         __file_path (str): Path to the JSON file.
         __objects (dict): Store all objects.
