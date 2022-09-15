@@ -41,7 +41,7 @@ class TestUser(unittest.TestCase):
     @classmethod
     def tearDownClass(cls):
         """User testing teardown.
-        
+
         Restore original file.json.
         Delete the FileStorage, DBStorage and User test instances.
         """
